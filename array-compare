@@ -1,0 +1,5 @@
+//check sum of the two array value are same or not
+var a = [3,12,5,20,4,33,42,44];
+var b = [33,21,46,24,22,3,14];
+sum = a.reduce((prev,current)=>(prev+current),0) == b.reduce((prev,current)=>(prev+current),0);
+console.log(sum);
